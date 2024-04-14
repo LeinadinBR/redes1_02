@@ -87,7 +87,7 @@ public class MeioEnlaceDeDados {
     int count = 0;
     int count2 = 0;
     int count3 = 16;
-    int[] tres = {0,0,1,1,0,0,1,1}; //numero 3 em binario em ascii, pq ele defini o tamanho do quadro em bytes
+    int[] tres = {0,0,1,1,0,0,1,1}; //numero 3 em binario em ascii, pq ele define o tamanho do quadro em bytes
     for (int i=0; i<bitsFinal.length; i++){
       if (count == 8)
         count3 = 0;
